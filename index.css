@@ -248,6 +248,15 @@ order .row {
 .order .row form .btn:hover {
     background: var(--red);
 }
+.row .col-md-4{
+    padding: 2rem;
+    font-size: 15px;
+}
+#output{
+    background-color: red;
+}
+
+/* ////////////////////////////////////////////////////////////order :end */
 .content{
   margin-bottom: 300px;
 }

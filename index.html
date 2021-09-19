@@ -93,14 +93,14 @@
             <img src="./Assets/order1.jpg" alt="">
         </div>
 
-        <form action="" method="POST">
+        <form action="" method="POST" id="form">
 
             <div class="inputBox">
-                <input type="text" placeholder="name" required>
-                <input type="email" placeholder="email"required>
+                <input type="text" placeholder="name" id="name" required>
+                <input type="email" placeholder="email" id="email" required>
             </div>
 <div class="row">
-            <div class="form-group col-md-2">
+            <div class="form-group col-md-4" id="one">
                 <label class="fs-5">pick Pizza</label>
                 <select  required>
                   <option>........</option>
@@ -112,7 +112,7 @@
                   <option>veggies Pizza</option>
               </select>
             </div>
-            <div class="form-group col-md-2">
+            <div class="form-group col-md-4" id="two">
                 <label class="fs-5">Size</label>
                 <select required>
                   <option>..........</option>
@@ -121,7 +121,7 @@
                   <option value="large">Large</option>
               </select>
             </div>
-            <div class="form-group col-md-2">
+            <div class="form-group col-md-4" id="three">
                 <label class="fs-5">toppings</label>
                 <select  required value="0">
                   <option>.....</option>
@@ -131,7 +131,9 @@
                   <option>mushrooms.</option>
               </select>
             </div>
-            <div class="form-group col-md-2">
+            </div>
+            <div class="row">
+            <div class="form-group col-md-4" id="four">
                 <label class="fs-5">crust</label>
                 <select  required>
                   <option>.......</option>
@@ -141,17 +143,22 @@
                   <option>thin.</option>
               </select>
             </div>
-            <div class="form-group col-md-2">
-                <label class="fs-5" for="">quantity</label>
-                <input type="number" min="1" required>
+            <div class="form-group col-md-4" id="five">
+                <label class="fs-5" for="">quantity:</label>
+                <input type="number" min="1" max="10" required>
+              </div>
+              <div class="col-md-4" id="number">
+                  <label for="number">TEL:</label>
+                  <input type="number" value="" placeholder="+254 719315899">
               </div>
             
             </div>
-            <textarea placeholder="address" name="" id="" cols="30" rows="10" required></textarea>
+            <textarea placeholder="address" name="" id="address" cols="30" rows="10" required></textarea>
 
-            <input type="submit" value="Submit" class="btn">
+            <input type="submit" value="Submit" class="btn Submit">
 
         </form>
+        <P id="output">your bill is Here</P>
 
     </div>
 
