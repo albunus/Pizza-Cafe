@@ -7,4 +7,9 @@ $('.aboutUs').click(function(){
     $('#aboutUs').show();
     $("#gallery").hide();
 });
+$('.btn1').click(function(){
+    $('#order').show();
+    $("#gallery").hide();
+    $("#aboutUs").hide();
+});
 });

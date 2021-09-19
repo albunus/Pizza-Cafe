@@ -48,7 +48,7 @@ section {
     color: var(--red);
 }
 
-.btn {
+.btn1 {
     display: inline-block;
     padding: .8rem 3rem;
     border: .2rem solid var(--red);
@@ -63,7 +63,7 @@ section {
     background-color: black;
 }
 
-.btn::before {
+.btn1::before {
     content: '';
     position: absolute;
     top: 0;
@@ -76,14 +76,17 @@ section {
     z-index: -1;
 }
 
-.btn:hover::before {
+.btn1:hover::before {
     width: 100%;
     left: 0;
     
 }
 
-.btn:hover {
+.btn1:hover {
     color: #fff;
+}
+.btn{
+    font-size: 20px;
 }
 
 header {
@@ -185,6 +188,9 @@ header .navbar a:hover {
 }
 
 /* -------------------------------------------------------------order form */
+#order{
+    display: none;
+}
 order .row {
     padding: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
