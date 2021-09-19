@@ -93,19 +93,61 @@
             <img src="./Assets/order1.jpg" alt="">
         </div>
 
-        <form action="">
+        <form action="" method="POST">
 
             <div class="inputBox">
-                <input type="text" placeholder="name">
-                <input type="email" placeholder="email">
+                <input type="text" placeholder="name" required>
+                <input type="email" placeholder="email"required>
             </div>
-
-            <div class="inputBox">
-                <input type="number" placeholder="number">
-                <input type="text" placeholder="food name">
+<div class="row">
+            <div class="form-group col-md-2">
+                <label class="fs-5">pick Pizza</label>
+                <select  required>
+                  <option>........</option>
+                  <option>Meat Pizza.</option>
+                  <option>Cheese Pizza</option>
+                  <option>Hawaiian Pizza.</option>
+                  <option>BBQ Chicken Pizza.</option>
+                  <option>Margherita Pizza.</option>
+                  <option>veggies Pizza</option>
+              </select>
             </div>
-
-            <textarea placeholder="address" name="" id="" cols="30" rows="10"></textarea>
+            <div class="form-group col-md-2">
+                <label class="fs-5">Size</label>
+                <select required>
+                  <option>..........</option>
+                  <option value="small">Small</option>
+                  <option value="medium">Medium</option>
+                  <option value="large">Large</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label class="fs-5">toppings</label>
+                <select  required value="0">
+                  <option>.....</option>
+                  <option>Sausage.</option>
+                  <option>onions</option>
+                  <option>Meat.</option>
+                  <option>mushrooms.</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label class="fs-5">crust</label>
+                <select  required>
+                  <option>.......</option>
+                  <option>flat bread.</option>
+                  <option>stuffed</option>
+                  <option>Cheese.</option>
+                  <option>thin.</option>
+              </select>
+            </div>
+            <div class="form-group col-md-2">
+                <label class="fs-5" for="">quantity</label>
+                <input type="number" min="1" required>
+              </div>
+            
+            </div>
+            <textarea placeholder="address" name="" id="" cols="30" rows="10" required></textarea>
 
             <input type="submit" value="Submit" class="btn">
 
