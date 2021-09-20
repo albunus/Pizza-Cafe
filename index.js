@@ -76,7 +76,7 @@ $(document).ready(function () {
         newOrderList.makeDelivery();
         $("#tush").text("You have ordered " + numberOfPizza + " " + size + " " + type + " pizza(s) with a  " + crust + " crust and  " + toppings + " topping");
         $("#output").text("YOUR BILL IS " + newOrderList.price + " /= ." + " For Delivery fill the delivery form");
-        // resetFieldValues();
+        resetFieldValues();
 
     });
 
