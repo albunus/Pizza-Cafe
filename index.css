@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
 :root {
     --red: #ff3838;
 }
+
 * {
     font-family: 'Nunito', sans-serif;
     padding: 0;
@@ -32,7 +34,8 @@ body {
 section {
     padding: 2rem 9%;
 }
-.text{
+
+.text {
     color: green;
     font-size: 50px;
 }
@@ -72,20 +75,21 @@ section {
     height: 100%;
     background: var(--red);
     transition: .3s linear;
-    
+
     z-index: -1;
 }
 
 .btn1:hover::before {
     width: 100%;
     left: 0;
-    
+
 }
 
 .btn1:hover {
     color: #fff;
 }
-.btn{
+
+.btn {
     font-size: 20px;
 }
 
@@ -118,8 +122,8 @@ header .logo i {
 header .navbar a {
     font-size: 3rem;
     margin-left: 2rem;
-    color:green;
-    
+    color: green;
+
 }
 
 header .navbar a:hover {
@@ -166,10 +170,12 @@ header .navbar a:hover {
 }
 
 @keyframes float {
+
     0%,
     100% {
         transform: translateY(0rem);
     }
+
     50% {
         transform: translateY(3rem);
     }
@@ -188,9 +194,10 @@ header .navbar a:hover {
 }
 
 /* -------------------------------------------------------------order form */
-#order{
+#order {
     display: none;
 }
+
 order .row {
     padding: 2rem;
     box-shadow: 0 .5rem 1rem rgba(0, 0, 0, .1);
@@ -248,24 +255,33 @@ order .row {
 .order .row form .btn:hover {
     background: var(--red);
 }
-.row .col-md-4{
+
+.row .col-md-4 {
     padding: 2rem;
     font-size: 15px;
 }
-#output{
-    background-color: red;
+
+#output {
+    background-color: rosybrown;
+    font-size: 15px;
+}
+
+#tush {
+    font-size: 15px;
+    background-color: rosybrown;
 }
 
 /* ////////////////////////////////////////////////////////////order :end */
-.content{
-  margin-bottom: 300px;
+.content {
+    margin-bottom: 300px;
 }
-#aboutUs{
+
+#aboutUs {
     display: none;
     position: relative;
     margin-top: 80px
-   
 }
+
 /* #aboutUs p,h5{
     font-size: 20px;
     font-family: sans-serif;
@@ -276,29 +292,34 @@ order .row {
     text-decoration-color: yellow;
     text-shadow: yellowgreen;
 } */
-#us{
+#us {
     margin-top: 5rem;
     position: relative;
     background-color: yellowgreen;
 
 }
-#us img{
+
+#us img {
     width: 700px;
     height: 500px;
 }
-#about{
+
+#about {
     margin-top: 70px;
 }
-#gallery{
+
+#gallery {
     display: none;
 }
-.row img{
+
+.row img {
     height: 300px;
     width: 300px;
     padding: 1rem;
     background-color: yellowgreen;
 }
-.row p{
+
+.row p {
     font-size: 20px;
     font-family: sans-serif;
     align-items: center;
@@ -310,20 +331,23 @@ order .row {
     background: #000;
     text-align: center;
 }
-.footer >#contact-us{
+
+.footer>#contact-us {
     padding: 1rem 1rem;
     color: #fff;
     font-weight: normal;
     font-size: 1.5rem;
 }
-#comment{
+
+#comment {
     height: 80px;
 }
 
-#button:hover{
+#button:hover {
     background-color: red;
     color: black;
 }
+
 .footer .share {
     display: flex;
     gap: 1.5rem;
